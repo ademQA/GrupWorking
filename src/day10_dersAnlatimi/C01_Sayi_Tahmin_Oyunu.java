@@ -16,11 +16,11 @@ public class C01_Sayi_Tahmin_Oyunu {
             int tahmin;
             int kacinciDefa = 0;
 
-            Scanner input = new Scanner(System.in);
+            Scanner scanner = new Scanner(System.in);
 
             do {
                 System.out.print("Lütfen 1-100 arasında bir sayı girin: ");
-                tahmin = input.nextInt();
+                tahmin = scanner.nextInt();
                 kacinciDefa++;
 
                 if (tahmin == randomSayi) {

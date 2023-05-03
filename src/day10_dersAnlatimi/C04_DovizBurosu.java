@@ -1,5 +1,14 @@
 package day10_dersAnlatimi;
-
+//Döviz almak ya da satmak isteyen kullanıcıyı once aşağıdaki gibi bir menuyle karşılayıp kullanıcının secim yapıp
+// işlemlerini girisMenu() metodu ile, doviz alımı için dovizAlim() metodu ile, döviz satışı için dovizSatıs() metodu ile
+// toplamda 3 method kullanarak yapınız.
+//***********QA DOVİZ***************
+//         Alış              Satış
+//Dolar:   20.67              19.9
+//Euro:    20.67              21.27
+//--------------------------------------
+//Doviz Alımı Yapmak İçin (1)'e Basınız :
+//Doviz Satışı Yapmak İçin (2)'e Basınız :
 import java.util.Scanner;
 public class C04_DovizBurosu {
   static   Scanner scanner = new Scanner(System.in);
@@ -8,6 +17,9 @@ public class C04_DovizBurosu {
   static  double kurDolarsatıs = 19.90;
    static double kurEuroSatıs = 21.27;
         public static void main(String[] args) {
+        girisMenu();
+        }
+        public static void girisMenu(){
             System.out.println("***********QA DOVİZ***************");
             System.out.println("         Alış              Satış");
             System.out.println("Dolar:   "+  kurDolarAlıs+"              "+kurDolarsatıs);
@@ -23,7 +35,8 @@ public class C04_DovizBurosu {
                 dovizSatıs();
             }
             else {
-                System.out.println("Hatalı Secim Yaptınız...");
+                System.out.println("Hatalı Secim Yaptınız...Lütfen Tekrar Deneyiniz...");
+                girisMenu();
             }
         }
         public static void dovizAlim(){
@@ -43,8 +56,10 @@ public class C04_DovizBurosu {
                 double euro = tl / kurEuroAlıs;
                 System.out.println(tl + " TL ile  " + euro + "  Euro alabilirsiniz...");
             }
-            else
+            else{
                 System.out.println("Hatalı Secim Yaptınız...");
+                dovizAlim();
+            }
         }
         public static void dovizSatıs(){
             System.out.println("Dolar satmak için(D)'ye \neuro satmak için (E)'ye basınız: ");
@@ -63,8 +78,10 @@ public class C04_DovizBurosu {
                 double tl = euro * kurEuroSatıs;
                 System.out.println(euro + " Euro  " + tl + "  TL eder...");
             }
-            else
+            else{
                 System.out.println("Hatalı Secim Yaptınız...");
+                dovizSatıs();
+            }
         }
     }
 

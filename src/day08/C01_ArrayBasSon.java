@@ -26,5 +26,6 @@ public class C01_ArrayBasSon {
         for (int i = 0; i < n; i++) {
             System.out.print(dizi[i] + " ");
         }
+
     }
 }
