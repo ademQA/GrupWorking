@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class C01ArrayEleman {
     //Dizinin elemanlarını,Elemanlarının karesini,Çift Sayılarını ve çift sayıların toplamını bulan 4method yazınız
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5,6};
+        int[] arr={1,2,3,4,5,6,7,8,9,10};
         System.out.print("Arrayın elemanları:");
         arrayYazdir(arr);
         System.out.print("Arrayın elemanlarının kareleri:");

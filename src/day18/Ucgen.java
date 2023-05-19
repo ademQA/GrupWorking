@@ -1,0 +1,29 @@
+package day18;
+
+public class Ucgen extends Sekiller{
+    public Ucgen(double kenar1, double kenar2, double kenar3) {
+        this.kenar1 = kenar1;
+        this.kenar2 = kenar2;
+        this.kenar3 = kenar3;
+    }
+
+    private double kenar1;
+    private double kenar2;
+    private double kenar3;
+
+    @Override
+    public double alanHesapla() {
+        double u=(CevreHesapla())/2;
+        return Math.sqrt(u*(u-kenar1)*(u-kenar2)*(u-kenar3));
+    }
+
+    @Override
+    public double CevreHesapla() {
+        return kenar1+kenar2+kenar3;
+    }
+
+    @Override
+    public void hesapla() {
+
+    }
+}
