@@ -1,4 +1,4 @@
-package day12_inheritance;
+package day12_Inheritance;
 
 public class Penguin extends Bird {
     String renk;

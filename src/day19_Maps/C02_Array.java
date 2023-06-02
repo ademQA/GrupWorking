@@ -1,4 +1,4 @@
-package day19_maps;
+package day19_Maps;
 
 public class C02_Array {
     // Verilen bir array'de istenen bir elemanin var olup olmadigini ve varsa kac kere

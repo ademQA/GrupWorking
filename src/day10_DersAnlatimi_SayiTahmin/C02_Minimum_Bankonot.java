@@ -1,4 +1,4 @@
-package day10_dersAnlatimi;
+package day10_DersAnlatimi_SayiTahmin;
 
 import java.util.Scanner;
 //kullanıcının girdiği TL miktarını en az banknot sayısına çeviren programı array kullanarak yapınız.

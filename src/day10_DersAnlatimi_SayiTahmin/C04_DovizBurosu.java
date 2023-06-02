@@ -1,4 +1,4 @@
-package day10_dersAnlatimi;
+package day10_DersAnlatimi_SayiTahmin;
 //Döviz almak ya da satmak isteyen kullanıcıyı once aşağıdaki gibi bir menuyle karşılayıp kullanıcının secim yapıp
 // işlemlerini girisMenu() metodu ile, doviz alımı için dovizAlim() metodu ile, döviz satışı için dovizSatıs() metodu ile
 // toplamda 3 method kullanarak yapınız.

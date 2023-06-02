@@ -1,4 +1,4 @@
-package day19_maps;
+package day19_Maps;
 
 public class C03_ArrayCarpim {
     //   Verilen 2 katli bir array'de bulunan tum sayilarin carpinini bize yazdiran bir

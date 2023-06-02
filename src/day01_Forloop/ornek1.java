@@ -1,4 +1,4 @@
-package day01_forloop;
+package day01_Forloop;
 
 import java.util.Scanner;
 
