@@ -1,4 +1,4 @@
-package day20_IkinciElAraba;
+package day20_CarProje;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,7 +34,7 @@ public class Car {
                 default:
                     System.out.println("Geçersiz seçim. Lütfen tekrar deneyin.");
             }
-            System.out.println();
+          //  System.out.println();
         }
     }
 
@@ -69,7 +69,7 @@ public class Car {
         System.out.println("----- Arabalar -----");
         for (Map.Entry<Integer, Ozellikler> entry : ikinciElArabaMap.entrySet()) {
             int carId = entry.getKey();
-            Ozellikler ikincielAraba = entry.getValue();
+           Ozellikler ikincielAraba = entry.getValue();
             System.out.println("Kayıt No: " + carId);
             System.out.println(ikincielAraba);
             System.out.println("-------------------");

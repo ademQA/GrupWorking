@@ -1,4 +1,4 @@
-package day20_IkinciElAraba;
+package day20_CarProje;
 
 public class Ozellikler {
     private String marka;
